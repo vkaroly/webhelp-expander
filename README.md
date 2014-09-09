@@ -29,3 +29,11 @@ Known issues
 The script does not collapse ToC branches that are no longer relevant. It might be of use to see which parts of the document were visited before, so we decided to not pursue auto-collapsing. You might want to add a command to fire a click event on all expanded [+] divs that are not siblings-of-parents-of-the-active-link.
 
 I'm also very new to Javascript, so there might be a faster and more convenient way to achieve the same goal.
+
+Check it out at
+------------------
+
+You can find a working example of the script (as treefix.js) here:
+https://www.balabit.com/sites/default/files/documents/scb-4.0-guides/en/scb-v4.0-guide-admin/html/index.html
+
+Use the navbar controls, or scroll down a bit for the table of contents to jump deeper into the document and see the sidebar open :)
